@@ -18,10 +18,10 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/jobs" element={<Jobs />} />
-      <Route path="/job/:id" element={<JobDetails />} />
-      <Route path="/candidate" element={<CandidateDashboard />} />
-      <Route path="/recruiter" element={<RecruiterDashboard />} />
-      <Route path="/admin" element={<AdminDashboard />} />
+      <Route path="/jobs/:id" element={<JobDetails />} />
+      <Route path="/candidate-dashboard" element={<CandidateDashboard />} />
+      <Route path="/recruiter-dashboard" element={<RecruiterDashboard />} />
+      <Route path="/admin-dashboard" element={<AdminDashboard />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

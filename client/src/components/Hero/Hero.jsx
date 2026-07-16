@@ -4,16 +4,15 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Find Your Dream Job Today 🚀</h1>
+        <h1>Find Your Dream Job</h1>
 
         <p>
-          Explore thousands of job opportunities from top companies and
-          kickstart your career.
+          Discover thousands of jobs from top companies across India.
         </p>
 
         <div className="hero-buttons">
-          <button>Search Jobs</button>
-          <button>Browse Companies</button>
+          <button>Find Jobs</button>
+          <button className="secondary">Post a Job</button>
         </div>
       </div>
     </section>

@@ -2,14 +2,13 @@ import "./SearchBar.css";
 
 function SearchBar() {
   return (
-    <section className="search-container">
+    <section className="search-section">
       <h2>Search Your Dream Job</h2>
 
       <div className="search-box">
-
         <input
           type="text"
-          placeholder="Job Title"
+          placeholder="Job title, company or keyword"
         />
 
         <input
@@ -18,7 +17,6 @@ function SearchBar() {
         />
 
         <button>Search</button>
-
       </div>
     </section>
   );
