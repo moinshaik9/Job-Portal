@@ -4,6 +4,8 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 import JobCard from "../../components/JobCard/JobCard";
 import Companies from "../../components/Companies/Companies";
 import Stats from "../../components/Stats/Stats";
+import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -31,6 +33,8 @@ function Home() {
         </h2>
         <Companies />
 <Stats />
+<WhyChooseUs />
+<Footer />
 
         <div
           style={{
